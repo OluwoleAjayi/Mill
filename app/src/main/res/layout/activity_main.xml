@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Numbers"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/numbersMil"
+        android:background="@color/design_default_color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Family Members"
+        android:textSize="20sp"
+        android:id="@+id/familyMember"
+        android:textColor="@color/white"
+        android:layout_below="@+id/numbersMil"
+        android:background="@color/design_default_color_secondary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Colors"
+        android:textSize="20sp"
+        android:id="@+id/color"
+        android:textColor="@color/white"
+        android:layout_below="@+id/familyMember"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Phrases"
+        android:textSize="20sp"
+        android:id="@+id/phrase"
+        android:textColor="@color/white"
+        android:layout_below="@+id/color"
+        android:background="@color/teal_700"/>
+
+
+
+
+
+
+
+</RelativeLayout>
